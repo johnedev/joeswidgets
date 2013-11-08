@@ -5,3 +5,7 @@
  */
 
 include_once 'products.features.inc';
+
+function products_init() {
+    goofy_nonexistant_function()
+}
