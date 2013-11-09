@@ -1,23 +1,23 @@
 <?php
 /**
  * @file
- * products.features.inc
+ * joes_widgets_products.features.inc
  */
 
 /**
  * Implements hook_views_api().
  */
-function products_views_api($module = NULL, $api = NULL) {
+function joes_widgets_products_views_api($module = NULL, $api = NULL) {
   return array("api" => "3.0");
 }
 
 /**
  * Implements hook_node_info().
  */
-function products_node_info() {
+function joes_widgets_products_node_info() {
   $items = array(
-    'products' => array(
-      'name' => t('Products'),
+    'joes_widgets_products' => array(
+      'name' => t('joes_widgets_products'),
       'base' => 'node_content',
       'description' => t('This content type provides title, description and picture of all widgets for sale.'),
       'has_title' => '1',

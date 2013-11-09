@@ -1,0 +1,13 @@
+<?php
+/**
+ * @file
+ * Code for the joes_widgets_products feature.
+ */
+
+include_once 'joes_widgets_products.features.inc';
+
+/*
+function joes_widgets_products_init() {
+  drupal_set_message('Hi John');
+}
+ */
