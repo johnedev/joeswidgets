@@ -1,18 +1,18 @@
 <?php
 /**
  * @file
- * products.features.field_instance.inc
+ * joes_widgets_products.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function products_field_default_field_instances() {
+function joes_widgets_products_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-products-body'
-  $field_instances['node-products-body'] = array(
-    'bundle' => 'products',
+  // Exported field_instance: 'node-joes_widgets_products-body'
+  $field_instances['node-joes_widgets_products-body'] = array(
+    'bundle' => 'joes_widgets_products',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
@@ -54,9 +54,9 @@ function products_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-products-field_product_image'
-  $field_instances['node-products-field_product_image'] = array(
-    'bundle' => 'products',
+  // Exported field_instance: 'node-joes_widgets_products-field_product_image'
+  $field_instances['node-joes_widgets_products-field_product_image'] = array(
+    'bundle' => 'joes_widgets_products',
     'deleted' => 0,
     'description' => '',
     'display' => array(

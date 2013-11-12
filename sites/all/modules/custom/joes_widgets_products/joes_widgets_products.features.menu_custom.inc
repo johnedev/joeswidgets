@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * products.features.menu_custom.inc
+ * joes_widgets_products.features.menu_custom.inc
  */
 
 /**
  * Implements hook_menu_default_menu_custom().
  */
-function products_menu_default_menu_custom() {
+function joes_widgets_products_menu_default_menu_custom() {
   $menus = array();
 
   // Exported menu: main-menu.
